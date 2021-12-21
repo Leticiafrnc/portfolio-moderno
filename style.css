@@ -161,7 +161,9 @@ body{
 .project-btn.live{
     background: none;
     border: 2px solid #fff;
+    background: black;
 }
+
 
 .project-card:hover .project-img{
     filter: blur(20px); /*efeito novo*/
