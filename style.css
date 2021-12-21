@@ -92,6 +92,11 @@ body{
     transition: 1s;
     opacity: 0;
 }
+
+.project-container button a{
+    text-decoration: none;
+    color: white;
+}
 .project-heading{
     font-size: 100px;
     background: #252525;
@@ -124,7 +129,6 @@ body{
 .project-content{
     position: relative;
     padding: 40px;
-    color: #fff;
     transition: .5s;
     opacity: 0;
 }
@@ -433,6 +437,10 @@ body{
     display: grid;
     grid-template-columns: 30% 65%;
     grid-gap: 40px;
+}
+.about-section button a{
+    text-decoration: none;
+    color: white;
 }
 
 .about-img-container{
