@@ -498,3 +498,51 @@ footer{
     display: flex;
     list-style: none;
 }
+@media screen and (max-width: 992px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skill-section{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skill-section{
+        width: 100%;
+    }
+    .card-body{
+        padding: 50px;
+        width: 100%;
+    }
+    .card-detail{
+        text-align: center;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+}
